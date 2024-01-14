@@ -1,0 +1,33 @@
+.contact-card {
+  border: 2px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+.contact-card:hover {
+  box-shadow: 0 8px 16px blue;
+}
+
+.contact-card button {
+  border: none;
+  background-color: black;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
